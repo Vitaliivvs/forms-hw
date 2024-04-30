@@ -3,65 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>forms</title>
 </head>
 <body>
     <header>
-        <a href="#">Golden</a>
+        <a class="navlink" href="#">Golden</a>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a class="navlink" href="#">Home</a></li>
+                <li><a class="navlink" href="#">Services</a></li>
+                <li><a class="navlink" href="#">Portfolio</a></li>
+                <li><a class="navlink" href="#">About</a></li>
+                <li><a class="navlink" href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section>
-            <h1>Services</h1>
+            <h1 class="title" >Services</h1>
             <div>
                 <a href="./images/1basket.svg">basket</a>
-                <h4>E-Commerce</h4>
-                <p>Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt.</p>
+                <h4 class="subtitle" >E-Commerce</h4>
+                <p class="paragraf" >Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt.</p>
             </div>
             <div>
                 <a href="./images/2laptop.svg">laptop</a>
-                <h4>Responsive Web</h4>
-                <p>Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt.</p>
+                <h4 class="subtitle" >Responsive Web</h4>
+                <p class="paragraf" >Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt.</p>
             </div>
             <div>
                 <a href="./images/3lock.svg">lock</a>
-                <h4>Web Security</h4>
-                <p>Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt.</p>
+                <h4 class="subtitle" >Web Security</h4>
+                <p class="paragraf" >Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt.</p>
             </div>
         </section>
     </main>
 
     <footer>
-       <h2>Contact us</h2>
+       <h2 class="endtitle" >Contact us</h2>
        <form action="">
-        <label for="">
-            <input type="text" id="Y-name" name="name" placeholder="YOUR NAME"> 
+        <label for="y-name">
+            <input class="footerinput" type="text" id="y-name" name="name" placeholder="YOUR NAME"> 
         </label>
         
-        <label for="">
-            <input type="email" name="email" id="your_email" placeholder="YOUR E-MAIL"> 
+        <label for="your_email">
+            <input class="footerinput" type="email" name="email" id="your_email" placeholder="YOUR E-MAIL"> 
         </label>
 
-        <label for="">
-            <input type="subject" id="subject" name="subject" placeholder="SUBJECT">
+        <label for="subject">
+            <input class="footerinput" type="subject" id="subject" name="subject" placeholder="SUBJECT">
         </label>
 
-        <label for="">
-            <textarea name="" id="Message" cols="30" rows="10" placeholder="YOUR MESSAGE"></textarea>
+        <label for="message">
+            <textarea class="inputfooter" name="" id="message" cols="30" rows="10" placeholder="YOUR MESSAGE"></textarea>
         </label>
        </form>
       
        
-        <button type="button">Send Message</button>
+        <button class="send" type="button">Send Message</button>
     </footer>
 </body>
 </html>
